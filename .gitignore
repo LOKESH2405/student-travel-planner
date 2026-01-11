@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+*.env
+config_local.py
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PDF outputs
+*.pdf
+```
+
+3. **Save** the file (`Ctrl+S`)
+
+---
+
+## ✅ Verify It's in the Right Place
+
+Your VS Code Explorer should look like this:
+```
+EXPLORER
+  ▼ NEW FOLDER (2)
+    ▶ venv
+    ▶ utils
+      .gitignore           ← You should see this!
+      app.py
+      config.py
+      Requirements.txt
